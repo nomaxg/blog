@@ -56,4 +56,5 @@ postCtx :: Context String
 postCtx = dateField "date" "%B %e, %Y" `mappend` defaultContext
 
 config :: Configuration
-config = defaultConfiguration {previewPort = 5000}
+config =
+  defaultConfiguration {destinationDirectory = "docs", previewPort = 5000}
