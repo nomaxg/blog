@@ -1,0 +1,4 @@
+_cache/
+*.swp
+*.lock
+.stack-work/
